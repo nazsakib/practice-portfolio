@@ -1,3 +1,125 @@
 body {
   margin: 0;
+  font-family: "Itim", cursive;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+p,
+a {
+  font-family: sans-serif;
+}
+
+/* welcome section */
+
+.welcome-section {
+  background-image: url(images/top-banner.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+.left-area {
+  float: left;
+  overflow: hidden;
+  width: 40%;
+  margin: 0 5%;
+}
+.left-area h1 {
+  font-size: 60px;
+}
+.left-area h4 {
+  font-size: 24px;
+}
+.left-area p {
+  font-size: 16px;
+}
+.orange-color {
+  color: orange;
+}
+.right-area {
+  margin: 0 5%;
+  float: right;
+  overflow: hidden;
+  width: 40%;
+}
+.right-area img {
+  width: 100%;
+}
+.left-area a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 35px;
+  background-image: linear-gradient(to left, rgb(238, 93, 26), orange);
+  color: white;
+  border-radius: 3px;
+}
+
+/* dream section */
+
+.dream-section {
+  overflow: hidden;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 150px;
+}
+.dream-section .right-area h1 {
+  font-size: 50px;
+}
+.dream-section .right-area h4 {
+  font-size: 22px;
+}
+.dream-section .left-area img {
+  width: 100%;
+}
+.dream-section .right-area a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 35px;
+  background-image: linear-gradient(to left, rgb(238, 93, 26), orange);
+  color: white;
+  border-radius: 3px;
+}
+
+/* experiences section  */
+
+.exp-section {
+  padding-bottom: 150px;
+  overflow: hidden;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.exp-section h2 {
+  font-size: 40px;
+}
+.exp-section div {
+  box-shadow: 5px 7px 40px gray;
+}
+.babyWeb {
+  width: 40%;
+  float: left;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  margin-left: 5%;
+  padding-left: 2%;
+  height: 300px;
+}
+.fullStack {
+  width: 40%;
+  float: left;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+  margin-left: 5%;
+  padding-left: 2%;
+  height: 300px;
+}
+
+/* footer-area */
+
+.footer-area {
+  text-align: center;
 }
